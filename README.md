@@ -50,6 +50,10 @@ This project demonstrates practical use of:
 - SQL views for reusable business reports
 - Transactions using `START TRANSACTION`, `COMMIT`, and `ROLLBACK`
 - Inventory updates and stock validation
+- - Connecting a relational database to Power BI using ODBC
+- Building KPI cards and business visualizations in Power BI
+- Using SQL views as reporting sources for Power BI
+- Creating an e-commerce sales and inventory dashboard
 
 ## Business Reports
 
@@ -109,3 +113,25 @@ The project was developed and tested using MariaDB through XAMPP and managed wit
 This project was created as a hands-on learning project to develop practical SQL and relational database skills using an e-commerce scenario.
 
 The goal was not only to write SQL queries, but also to understand how database relationships, transactions, inventory data, customer orders, payments, and business reporting can work together in a practical database.
+
+## Power BI Dashboard
+
+The SQL database was connected to Microsoft Power BI using an ODBC connection to create an interactive e-commerce analytics dashboard.
+
+The dashboard includes:
+
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Revenue by Product
+- Units Sold by Product
+- Revenue by Category
+- Revenue by Payment Method
+- Current Stock by Product
+- Customer Spending
+
+The dashboard uses data from the relational database tables and the `product_sales_report` SQL view.
+
+### Dashboard Preview
+
+![Power BI Dashboard](screenshots/power-bi-dashboard.png)
